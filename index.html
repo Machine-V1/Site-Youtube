@@ -9,29 +9,74 @@
   </head>
   <body>
     <header>
-      <button>
-        <img
-          style="filter: invert(1)"
-          src="images/menu hamburguer.svg"
-          alt=""
-        />
-      </button>
-      <img
-        style="width: 120px; height: 100px"
-        src="images/youtube logo.svg"
-        alt=""
-      />
+      <div id="header-left-section">
+        <button>
+          <img
+            style="filter: invert(1)"
+            src="images/menu hamburguer.svg"
+            alt=""
+          />
+        </button>
+        <img style="width: 120px" src="images/youtube logo.svg" alt="" />
+      </div>
 
       <div id="barra-pesquisa">
         <div id="barra-pesquisa-input">
-          <input type="text" />
+          <input type="text" placeholder="Pesquisa" />
           <button><img src="images/teclado.svg" alt="" /></button>
         </div>
         <button id="botao-pesquisa">
           <img src="images/pesquisa.svg" alt="" />
         </button>
+        <button id="botao-microfone">
+          <img src="images/mic.svg" alt="" />
+        </button>
       </div>
-      <button id="botao-microfone"><img src="images/mic.svg" alt="" /></button>
+      <div id="header-right-section">
+        <button><img src="images/3 pontos.svg" alt="" /></button>
+        <div id="iniciar-sessao">
+          <img src="images/user.svg" alt="" />
+          <span>Iniciar Sessão</span>
+        </div>
+      </div>
     </header>
+    <main>
+      <section id="main-section-left">
+        <div id="video"></div>
+        <div id="titulo-video-principal">
+          <h3>LIELESS x SCRUBNOOB</h3>
+          <div id="title-downbar">
+            <div id="canal">
+              <img src="images/user.svg" alt="" />
+              <h5>Lieless</h5>
+              <span>48,5 mil subscritores</span>
+              <button>Subscrever</button>
+            </div>
+            <div id="outros-botoes">
+              <div class="botao">
+                <button><img src="images/like.svg" alt="" /></button>
+                <span>8,3 mil</span>
+                <hr style="height: 100%" />
+                <button style="transform: rotate(180deg)">
+                  <img src="images/like.svg" alt="" />
+                </button>
+              </div>
+              <div class="botao">
+                <button><img src="images/compartilha.svg" alt="" /></button>
+                <span>Partilhar</span>
+              </div>
+              <div class="botao" style="padding: 10px">
+                <button><img src="images/3 pontos.svg" alt="" /></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="descricao">
+          <span>627 406 visualizações 27/11/2021</span>
+          <span>...mais</span>
+        </div>
+      </section>
+      <section id="main-section-right">a</section>
+    </main>
   </body>
 </html>
