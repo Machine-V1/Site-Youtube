@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: roboto;
+}
+input:focus {
+  outline: none;
+}
+body {
+  background-color: #111111;
+}
+header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 56px;
+  background-color: #101010;
+}
+header img {
+  height: 30px;
+  width: 30px;
+}
+header button {
+  background-color: transparent;
+  border: none;
+}
+#barra-pesquisa {
+  display: flex;
+  justify-content: space-between;
+
+  padding-right: 20px;
+  width: 50%;
+  height: 40px;
+
+  border-radius: 30px;
+}
+#barra-pesquisa input {
+  color: white;
+  font-size: medium;
+  background-color: transparent;
+  padding-left: 20px;
+  padding-right: 20px;
+  flex: 1;
+  border: solid 1px #2d2d2d;
+  border-radius: 30px 0px 0px 30px;
+  border-right: none;
+}
+#barra-pesquisa-input {
+  border-radius: 30px 0px 0px 30px;
+  width: 100%;
+  display: flex;
+}
+#barra-pesquisa-input button {
+  padding-right: 10px;
+  border: solid 1px #2d2d2d;
+  border-left: none;
+  border-right: none;
+}
+
+#barra-pesquisa img {
+  filter: invert(1);
+  width: 25px;
+  height: 25px;
+}
+#botao-pesquisa {
+  background-color: #1f1f1f;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: solid 1px #2d2d2d;
+  border-left: none;
+  border-radius: 0px 30px 30px 0px;
+}
+#botao-pesquisa img {
+  width: 20px;
+  height: 20px;
+}
+#botao-microfone {
+  background-color: #1f1f1f;
+  padding: 7px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 30px;
+}
+#botao-microfone img {
+  filter: invert(1);
+  width: 25px;
+  height: 25px;
+}
+#botao-microfone:hover {
+  filter: brightness(2);
+  cursor: pointer;
+}
