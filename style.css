@@ -144,11 +144,11 @@ header button {
 main {
   background-color: aqua;
 
-  padding-left: 3em;
-  padding-right: 3em;
+  padding-left: 2em;
+  padding-right: 2em;
   gap: 1.5em;
   display: flex;
-  height: 1000px;
+  
 }
 main section {
   padding: 1.5em;
@@ -158,7 +158,7 @@ main section {
   background-color: rgb(98, 0, 255);
   display: flex;
   flex-direction: column;
-  width: 70%;
+  width: 60%;
 }
 
 #main-section-right {
@@ -240,7 +240,7 @@ main h5 {
 
 #descricao {
   padding: 15px;
-  height: 10em;
+  height: 200px;
   margin-top: 0.4em;
   border-radius: 30px;
   background-color: #272727;
@@ -253,4 +253,134 @@ main h5 {
   font-weight: bold;
   font-size: small;
 }
+#top-comments{
+  display: flex;
+  align-items: center;
+  
+  margin-top: 2em;
+  color: white;
+  gap: 2em;
+}
+#ordenar-por{
+  display: flex;
+  align-items: center;
+  gap: 0.4em;
+  cursor: pointer;
+}
+#ordenar-por img{
+  width: 30px;
+  height: 30px;
+  filter: invert(1);
+}
+#add-comentario{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 1em;
+}
+#add-comentario img{
+  width: 40px;
+  filter: invert(1);
+  height: 40px;
+}
+#add-comentario input{
+  border: 1px solid;
+  border-color: #272727;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding: 0.5em;
+  background-color: transparent;
+  width: 100%;
+}
+#comentarios{
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  margin-top: 2.5em;
+}
+#comentarios div{
+  
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(3,auto);
+  grid-template-rows: repeat(3,auto);
+  justify-content: start;
+  row-gap: 0.2em;
+}
+.image-usuario{
+  grid-column: 1/2;
+  grid-row: 1/4;
+  width: 40px;
+  filter: invert(1);
+  height: 40px;
+}
+.nome-tempo{
+  
+  grid-column: 2/4;
+  grid-row: 1/2;
+
+}
+.nome{
+  margin-right: 1em;
+  font-weight: bold;
+  
+}
+.tempo{
+  
+  color: #272727;
+}
+.like-deslike{
+  
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+.like-deslike img{
+  
+  width: 15px;
+  filter: invert(1);
+  height: 15px;
+  cursor: pointer;
+}
+#comentarios div button{
+  grid-column: 3/4;
+  grid-row: 3/4;
+  color: white;
+  font-weight: bold;
+}
 /* Direita */
+#main-section-right{
+  
+  display: flex;
+  flex-direction: column;
+}
+#main-section-right div{
+  
+  color: white;
+  display: flex;
+  background-color: chocolate;
+}
+.video-card{
+  
+}
+.video-card img{
+  width: 160px;
+  height: 90px;
+  padding: 10px;
+}
+.card-right{
+  padding: 10px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+.card-right h4{
+  margin-bottom: 0.3em;
+}
+.card-right span{
+  color: #AAAAAA;
+}
+.card-right-visualizacao{
+  display: flex;
+
+}
