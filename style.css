@@ -26,6 +26,7 @@ header {
   padding-bottom: 0.4em;
   height: 56px;
   background-color: #101010;
+  z-index: 100;
 }
 button {
   cursor: pointer;
