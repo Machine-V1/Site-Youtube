@@ -142,7 +142,6 @@ header button {
 }
 /* MAIN CONTENT */
 main {
-  background-color: aqua;
 
   padding-left: 2em;
   padding-right: 2em;
@@ -150,26 +149,22 @@ main {
   display: flex;
   
 }
-main section {
-  padding: 1.5em;
-}
+
 /* Esquerda */
 #main-section-left {
-  background-color: rgb(98, 0, 255);
   display: flex;
   flex-direction: column;
-  width: 60%;
+  width: 70%;
 }
 
 #main-section-right {
   display: grid;
   flex: 1;
-  background-color: brown;
 }
 #video {
   background-color: #2d2d2d;
   width: 100%;
-  height: 600px;
+  height: 500px;
 }
 main h3 {
   margin-top: 0.7em;
@@ -358,29 +353,31 @@ main h5 {
   
   color: white;
   display: flex;
-  background-color: chocolate;
 }
-.video-card{
-  
-}
+
 .video-card img{
   width: 160px;
   height: 90px;
   padding: 10px;
 }
 .card-right{
-  padding: 10px;
+  padding-top: 10px;
   display: flex;
   flex: 1;
   flex-direction: column;
 }
 .card-right h4{
+  font-size: 15px;
   margin-bottom: 0.3em;
 }
 .card-right span{
+  font-size: 10px;
   color: #AAAAAA;
+}
+.nome-canal{
+  margin-top: 0.7em;
 }
 .card-right-visualizacao{
   display: flex;
-
+  
 }
