@@ -396,5 +396,28 @@ main h5 {
   #main-section-left{
     width: calc(100% - 2em*2);
     padding-right: 2em;
+    row-gap: 2em;
+
+  }
+  #video{
+    order: 1;
+  }
+  #titulo-video-principal{
+    order: 2;
+  }
+  #main-section-right{
+    order: 5;
+  }
+  #descricao{
+    order: 3;
+  }
+  #top-comments{
+    order: 6;
+  }
+  #comentarios{
+    order: 7;
+  }
+  #add-comentario{
+    order: 4;
   }
 }
